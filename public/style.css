@@ -1,0 +1,255 @@
+/*******************Header section css***********************/
+
+.header-area{
+    background-color: #3B5998;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1240px;
+    width: 95%;
+    margin: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-area .logo-area {
+    width: 20%;
+    float: left;
+
+}
+
+.header-area .login-area {
+    width: 80%;
+    overflow: hidden;
+}
+
+form {
+    float: right;
+}
+
+.header-area .login-area form label {
+    display: block;
+}
+
+.header-area .login-area form input {
+    display: block;
+}
+
+
+
+
+
+.login-area label {
+    color: #fff;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    margin-bottom: 3px;
+}
+
+
+.login-area .login {
+    float: left;
+    margin-right: 10px;
+}
+
+.login-area input{
+    height: 19px;
+}
+
+.login-area .password {
+    float: left;
+    margin-right: 10px;
+}
+
+.login-area .button {
+    float: left;
+    margin-top: 20px;
+}
+
+.password a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.password a:hover{
+    text-decoration: underline;
+}
+
+/***************Body-area****************/
+
+.body-area{
+ width: 100%;
+}
+
+
+.comunitee {
+ width: 55%;
+ float: left;
+}
+
+.signup{
+    width: 45%;
+    overflow: hidden;
+}
+
+.signup h2{
+    font-weight: bold;
+    color: #303030;
+    font-size: 30px;
+    font-family: Nirmala UI;
+    margin-bottom: 2px;
+}
+
+
+
+
+.signup .all-input input{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 33px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.signup .all-input input:nth-child(1)
+{
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+}
+
+.signup .all-input input:nth-child(2)
+{
+    width: 48%;
+    margin-left: 2%;
+}
+
+.birth-day h5{
+    color: hsl(0, 0%, 47%);
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.birth-day select{
+    height: 30px;
+    width: 60px;
+    border: 1px solid #ccc;
+}
+
+.gender h4{
+    margin: 7px 0;
+    color:  hsl(0, 0%, 47%);
+}
+
+.gender label {
+    font-weight: bold;
+}
+
+.form-input p {
+    color: hsl(0, 0%, 37%);
+}
+
+.form-input p a {
+    text-decoration: none;
+}
+
+.form-input p a:hover{
+    text-decoration: underline;
+}
+
+.btn button {
+    background: linear-gradient(#64A752, #477a39);
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 40px;
+    border : .5px solid black;
+    border-radius: 5px;
+    font-size: 17px;
+    transition: 1s;
+}
+
+.btn  {
+    margin-bottom: 40px;
+}
+
+.btn button:hover{
+    background: linear-gradient(#477a39, #64A752);
+}
+
+.copy-right {
+    margin-bottom: 50px;
+}
+
+.body-area{
+    background: linear-gradient(#FAFAFC,  #DADFEC);
+}
+
+/******************start communitie css**************/
+
+.comunitee h4{
+    font-size: 28px;
+    font-weight: bold;
+    color: #242424;
+    width: 80%;
+}
+
+.comunitee img {
+    display: block;
+    margin: auto;
+}
+
+.copy-right a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.copy-right span {
+    font-weight: bold;
+    color: #555555;
+}
+
+.all-input input::placeholder{
+    color: rgb(128, 127, 127);
+    padding-left: 7px;
+}
+
+/******************Footer-Top**************/
+
+.footer-area 
+{
+    overflow: hidden;
+}
+
+.footer-area .footer-top {
+    overflow: hidden;
+}
+
+.footer-area .footer-top ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
+
+.footer-area .footer-top ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+
+
+
+
